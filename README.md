@@ -41,7 +41,7 @@ We should now see a new folder in our previously empty rp-web directory called r
 The keyword for activating a virtual environment is source or call, depending on which OS and terminal we're using. We run this command and specify which environment to activate like so (the following assumes we are in the rp-web directory, with a virtual environment called rp):
 
 ###### Mac/Linux:	Windows:
-source Rosaprima/bin/activate	call Rosaprima\Scripts\activate
+```source Rosaprima/bin/activate	call Rosaprima\Scripts\activate```
 We know our virtual environment is active, and which virtual environment is active, when the command line changes to something like this: (rp) $
 
 Moreover, if you type pip3 list in Mac/Linux and pip list in Windows you must see Django installed as a package.
@@ -74,4 +74,4 @@ Create the "static folder" of files for deployment
 As a previous step for the deployment on a server, the "static folder" must be generated, this folder contains all the js, css, images, among others, and serves for the correct visualization and operation of the website.
 
 ###### Mac/Linux:	Windows:
-python3 manage.py collectstatic	python manage.py collectstatic
+```python3 manage.py collectstatic	python manage.py collectstatic```
