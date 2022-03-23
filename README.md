@@ -38,7 +38,7 @@ We need a place to store these environments. Create folder named RP-web as envir
 We should now see a new folder in our previously empty RP-web directory called Rosaprima.
 
 ## Activating a Virtual Environment
-The keyword for activating a virtual environment is source or call, depending on which OS and terminal we're using. We run this command and specify which environment to activate like so (the following assumes we are in the rp-web directory, with a virtual environment called rp):
+The keyword for activating a virtual environment is source or call, depending on which OS and terminal we're using. We run this command and specify which environment to activate like so (the following assumes we are in the RP-web directory, with a virtual environment called Rosaprima):
 
 ###### Mac/Linux:	Windows:
 ```source Rosaprima/bin/activate	call Rosaprima\Scripts\activate```
@@ -47,9 +47,9 @@ We know our virtual environment is active, and which virtual environment is acti
 Moreover, if you type pip3 list in Mac/Linux and pip list in Windows you must see Django installed as a package.
 
 ## Deactivate a Virtual Environment
-To deactivate a virtual environment, just type deactivate in the command line. Closing your terminal window will also deactivate your virtual environment.
+To deactivate a virtual environment, just type ```deactivate``` in the command line. Closing your terminal window will also deactivate your virtual environment.
 
-###### Run Django "ROSAPRIMA-PLATFORM" project
+``` Run Django "ROSAPRIMA-PLATFORM" project```
 With our Django virtual environment activated, run this command:
 
 ###### Mac/Linux:	Windows:
