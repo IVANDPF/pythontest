@@ -34,7 +34,7 @@ In practice, because your projects will be larger, it's good to create virtual e
 We need a place to store these environments. Create folder named RP-web as environment folder. So, Let's store our environment there. In the terminal, navigate (cd) to the rp-web directory. Next, decide on a name for your environment (it can be whatever you'd like). We're naming our environment rp. Here's the command to create the virtual environment with that name:
 
 ###### Mac/Linux:	Windows:
-python3 -m venv Rosaprima	python -m venv Rosaprima
+```python3 -m venv Rosaprima	python -m venv Rosaprima```
 We should now see a new folder in our previously empty rp-web directory called rp.
 
 ## Activating a Virtual Environment
