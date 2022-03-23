@@ -24,18 +24,18 @@ To install multiple packages, the following command can be used to shorten the m
 
 ###### Mac/Linux:	Windows:
 ```$ pip3 install -r requirements.txt	$ pip install -r requirements.txt```
-Virtual Environments
+## Virtual Environments
 You may have noticed that when we installed a package using pip, it was installed globally on our machine. While this is okay, if we're working on multiple projects, it might be hard to keep track of which projects are using which packages, or in other words, which projects have which dependencies. To keep this organized, Python uses virtual environments.
 
 In addition to specifying what packages we need, we can also specify which version of Python to use in a given environment. This allows us to have multiple versions of Python installed on our computer and then easily switch between versions when actually running and testing our code.
 
 In practice, because your projects will be larger, it's good to create virtual environments specific to a project.
 
-We need a place to store these environments. Create folder named RP-web as environment folder. So, Let's store our environment there. In the terminal, navigate (cd) to the rp-web directory. Next, decide on a name for your environment (it can be whatever you'd like). We're naming our environment rp. Here's the command to create the virtual environment with that name:
+We need a place to store these environments. Create folder named RP-web as environment folder. So, Let's store our environment there. In the terminal, navigate (cd) to the RP-web directory. Next, decide on a name for your environment (it can be whatever you'd like). We're naming our environment rp. Here's the command to create the virtual environment with that name:
 
 ###### Mac/Linux:	Windows:
 ```python3 -m venv Rosaprima	python -m venv Rosaprima```
-We should now see a new folder in our previously empty rp-web directory called rp.
+We should now see a new folder in our previously empty RP-web directory called Rosaprima.
 
 ## Activating a Virtual Environment
 The keyword for activating a virtual environment is source or call, depending on which OS and terminal we're using. We run this command and specify which environment to activate like so (the following assumes we are in the rp-web directory, with a virtual environment called rp):
