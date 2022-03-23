@@ -49,7 +49,7 @@ Moreover, if you type pip3 list in Mac/Linux and pip list in Windows you must se
 ## Deactivate a Virtual Environment
 To deactivate a virtual environment, just type deactivate in the command line. Closing your terminal window will also deactivate your virtual environment.
 
-Run Django "ROSAPRIMA-PLATFORM" project
+###### Run Django "ROSAPRIMA-PLATFORM" project
 With our Django virtual environment activated, run this command:
 
 ###### Mac/Linux:	Windows:
