@@ -53,7 +53,7 @@ Run Django "ROSAPRIMA-PLATFORM" project
 With our Django virtual environment activated, run this command:
 
 ###### Mac/Linux:	Windows:
-python3 manage.py runserver	python manage.py runserver
+```python3 manage.py runserver	python manage.py runserver```
 Open http://127.0.0.1:8000/ in a browser window. Hooray for CLIs (command-line interfaces)! (Don't worry about the warning about unapplied migrations. It won't affect us for now, and we'll address it soon enough.)
 
 Press ctrl-c to stop the server. Open up the project folder in your text editor. (Take note of the folder structure so far!)
