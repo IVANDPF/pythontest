@@ -1,11 +1,13 @@
 # pythontest
 
 ## INSTALL homebrew & PYTHON
+```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew -v
 brew update
 brew install python3
 python3 -V
+```
 Then we must have a message with our Python version
 
 ## Package Manager:pip
@@ -14,14 +16,14 @@ Even though programming languages come with a lot right out of the box, you'll f
 Pip is the package manager we'll use in Python to install these third-party packages. (There are other package managers, but for simplicity and fewer installations, we're sticking with pip because it was included when we installed Python.) Rather than having to go search for packages and versions ourselves, package managers are generally able to find the versions we need with just a single command from our end. That command will look like this:
 
 ###### Mac/Linux:	Windows:
-$ pip3 install {{package}}	$ pip install {{package}}
+```$ pip3 install {{package}}	$ pip install {{package}}```
 <= NOTE: substitute {{package}} with the package you are installing (For this case Django)
 
 ## Install multiple packages
 To install multiple packages, the following command can be used to shorten the manual installation process one by one. Inside the rp_platform folder a file named requirements.txt has been defined that contains all the packages that are being used in the project with their respective version in order to avoid compatibility problems.
 
 ###### Mac/Linux:	Windows:
-$ pip3 install -r requirements.txt	$ pip install -r requirements.txt
+```$ pip3 install -r requirements.txt	$ pip install -r requirements.txt```
 Virtual Environments
 You may have noticed that when we installed a package using pip, it was installed globally on our machine. While this is okay, if we're working on multiple projects, it might be hard to keep track of which projects are using which packages, or in other words, which projects have which dependencies. To keep this organized, Python uses virtual environments.
 
@@ -60,14 +62,14 @@ Create an application in the project "ROSAPRIMA-PLATFORM".
 To carry out file management in a more organized way, it is advisable to manage folders or also named in the Django framework as applications.
 
 ###### Mac/Linux:	Windows:
-python3 manage.py startapp {{application_name}}	python manage.py startapp {{application_name}}
+```python3 manage.py startapp {{application_name}}	python manage.py startapp {{application_name}}```
 <= NOTE: replace {{application_name}} with the name of the application you are going to create (in this case it is rp_home)
 
 ## Migrations in Django
 If, when running the project locally, you see a message on your console like the following: You have xx unapplied migration (s). Your project may not work properly until you apply the migrations for app (s): admin, auth, contenttypes, rp_register, sessions. You will need to run the following command to apply the pending migrations.
 
 ###### Mac/Linux:	Windows:
-python3 manage.py migrate	python manage.py migrate
+```python3 manage.py migrate	python manage.py migrate```
 Create the "static folder" of files for deployment
 As a previous step for the deployment on a server, the "static folder" must be generated, this folder contains all the js, css, images, among others, and serves for the correct visualization and operation of the website.
 
