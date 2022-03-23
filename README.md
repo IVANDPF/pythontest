@@ -34,14 +34,14 @@ In practice, because your projects will be larger, it's good to create virtual e
 We need a place to store these environments. Create folder named RP-web as environment folder. So, Let's store our environment there. In the terminal, navigate (cd) to the RP-web directory. Next, decide on a name for your environment (it can be whatever you'd like). We're naming our environment rp. Here's the command to create the virtual environment with that name:
 
 ###### Mac/Linux:	Windows:
-```python3 -m venv Rosaprima	python -m venv Rosaprima```
+```python3 -m venv Enviroment1	python -m venv Enviroment1```
 We should now see a new folder in our previously empty RP-web directory called Rosaprima.
 
 ## Activating a Virtual Environment
 The keyword for activating a virtual environment is source or call, depending on which OS and terminal we're using. We run this command and specify which environment to activate like so (the following assumes we are in the RP-web directory, with a virtual environment called Rosaprima):
 
 ###### Mac/Linux:	Windows:
-```source Rosaprima/bin/activate	call Rosaprima\Scripts\activate```
+```source Enviroment1/bin/activate	call Enviroment1\Scripts\activate```
 We know our virtual environment is active, and which virtual environment is active, when the command line changes to something like this: (rp) $
 
 Moreover, if you type pip3 list in Mac/Linux and pip list in Windows you must see Django installed as a package.
