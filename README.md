@@ -50,13 +50,8 @@ Moreover, if you type pip3 list in Mac/Linux and pip list in Windows you must se
 To deactivate a virtual environment, just type ```deactivate``` in the command line. Closing your terminal window will also deactivate your virtual environment.
 With our Django virtual environment activated, run this command:
 
-###### Mac/Linux:	Windows:
-```python3 manage.py runserver```
-Open http://127.0.0.1:8000/ in a browser window. Hooray for CLIs (command-line interfaces)! (Don't worry about the warning about unapplied migrations. It won't affect us for now, and we'll address it soon enough.)
 
-Press ctrl-c to stop the server. Open up the project folder in your text editor. (Take note of the folder structure so far!)
-
-Create an application in the project.
+## Create an application in the project.
 ###### Mac/Linux:	Windows:
 ```django-admin startproject {{project_name}}```
 To carry out file management in a more organized way, it is advisable to manage folders or also named in the Django framework as applications.
@@ -64,6 +59,12 @@ To carry out file management in a more organized way, it is advisable to manage 
 ###### Mac/Linux:	Windows:
 ```python3 manage.py startapp {{application_name}}```
 <= NOTE: replace {{application_name}} with the name of the application you are going to create (in this case it is rp_home)
+
+###### Mac/Linux:	Windows:
+```python3 manage.py runserver```
+Open http://127.0.0.1:8000/ in a browser window. Hooray for CLIs (command-line interfaces)! (Don't worry about the warning about unapplied migrations. It won't affect us for now, and we'll address it soon enough.)
+
+Press ctrl-c to stop the server. Open up the project folder in your text editor. (Take note of the folder structure so far!)
 
 ## Migrations in Django
 If, when running the project locally, you see a message on your console like the following: You have xx unapplied migration (s). Your project may not work properly until you apply the migrations for app (s): admin, auth, contenttypes, rp_register, sessions. You will need to run the following command to apply the pending migrations.
