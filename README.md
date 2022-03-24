@@ -1,6 +1,8 @@
 # pythontest
 By: Iván Del Pozo
 ## INSTALL homebrew & PYTHON
+###### Mac/Linux:
+This is just for MacOS
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew -v
